@@ -7,9 +7,11 @@
 
 import SwiftUI
 class AnimalList {
+    
     static var shared = AnimalList()
     private var animalList = ["Cat", "Cow", "Dog", "Elephant", "Goat", "Horse", "Lion", "Tiger"]
     private var pointer = -1;
+    
     func getNextAnimal() -> String{
         let pntr =  pointer == animalList.count-1 ? 0  : pointer+1
         pointer = pntr
