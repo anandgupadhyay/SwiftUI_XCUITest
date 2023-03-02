@@ -19,6 +19,8 @@
 		FE00AD21293F343A00817A0C /* AULoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE00AD20293F343A00817A0C /* AULoginView.swift */; };
 		FE00AD23293F579B00817A0C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE00AD22293F579B00817A0C /* User.swift */; };
 		FE00AD25293F57FF00817A0C /* LoginUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE00AD24293F57FF00817A0C /* LoginUITestCase.swift */; };
+		FE5D5F7829B0BA2E00C512F1 /* PropertyWrapperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5D5F7729B0BA2E00C512F1 /* PropertyWrapperExample.swift */; };
+		FE5D5F7A29B0BA5400C512F1 /* Coordinator Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5D5F7929B0BA5400C512F1 /* Coordinator Pattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		FE00AD20293F343A00817A0C /* AULoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AULoginView.swift; sourceTree = "<group>"; };
 		FE00AD22293F579B00817A0C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FE00AD24293F57FF00817A0C /* LoginUITestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITestCase.swift; sourceTree = "<group>"; };
+		FE5D5F7729B0BA2E00C512F1 /* PropertyWrapperExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperExample.swift; sourceTree = "<group>"; };
+		FE5D5F7929B0BA5400C512F1 /* Coordinator Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coordinator Pattern.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				FE00AD18293EFE9000817A0C /* Extras.swift */,
+				FE5D5F7729B0BA2E00C512F1 /* PropertyWrapperExample.swift */,
+				FE5D5F7929B0BA5400C512F1 /* Coordinator Pattern.swift */,
 			);
 			path = Extras;
 			sourceTree = "<group>";
@@ -301,6 +307,8 @@
 				FE00AD23293F579B00817A0C /* User.swift in Sources */,
 				FE00AD19293EFE9000817A0C /* Extras.swift in Sources */,
 				FE00ACEE293E343E00817A0C /* FirstCIDemoApp.swift in Sources */,
+				FE5D5F7829B0BA2E00C512F1 /* PropertyWrapperExample.swift in Sources */,
+				FE5D5F7A29B0BA5400C512F1 /* Coordinator Pattern.swift in Sources */,
 				FE00AD1C293EFFAF00817A0C /* AUButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
