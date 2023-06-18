@@ -58,7 +58,7 @@ struct ContentView: View {
             Text(imageName).padding().foregroundColor(Color(UIColor.systemBlue))
             Button("Next"){
                 self.imageName = AnimalList.shared.getNextAnimal()
-            }.buttonStyle(AUButtonStle())
+            }.buttonStyle(  AUButtonStle())
                 .accessibilityIdentifier("AUNextButton")
             Spacer()
         }
