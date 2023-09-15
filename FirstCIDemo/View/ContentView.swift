@@ -13,6 +13,12 @@ struct ContentView: View {
     @EnvironmentObject private var user: User
     
     var body: some View {
+
+        VStack {
+            Image("SF").mask(Text("SF").rotation3DEffect (Angle(degrees:-45),10.0,z: 10.0)).font(.system(size: 220, weight: .heavydessane,rounded•shadow (radius: 10)
+Text ("The Golden City")•fontweight(.ultraLight)
+        }
+        
         VStack(spacing:10){
             topHstack()
             Spacer()
@@ -73,3 +79,7 @@ struct ContentView_Previews: PreviewProvider {
         }
     }
 }
+
+
+
+
